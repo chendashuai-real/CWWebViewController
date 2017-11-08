@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1A900458E9DC8C362FE0F4BA /* libPods-CWWebViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF3F56BE7350F1473599B8D /* libPods-CWWebViewController.a */; };
+		660F2A971FAFF96E00850E07 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 660F2A961FAFF96E00850E07 /* WebViewController.m */; };
 		66E0E87C1F6904B70075122E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E0E87B1F6904B70075122E /* main.m */; };
 		66E0E87F1F6904B70075122E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E0E87E1F6904B70075122E /* AppDelegate.m */; };
 		66E0E8821F6904B70075122E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E0E8811F6904B70075122E /* ViewController.m */; };
@@ -23,6 +24,8 @@
 		24F2371B48F58449CE440FC0 /* Pods-CWWebViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CWWebViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-CWWebViewController/Pods-CWWebViewController.release.xcconfig"; sourceTree = "<group>"; };
 		4EF3F56BE7350F1473599B8D /* libPods-CWWebViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CWWebViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CA88D26DB471A8DDA2C6DAE /* Pods-CWWebViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CWWebViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CWWebViewController/Pods-CWWebViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		660F2A951FAFF96E00850E07 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		660F2A961FAFF96E00850E07 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		66E0E8771F6904B70075122E /* CWWebViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CWWebViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E0E87B1F6904B70075122E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		66E0E87D1F6904B70075122E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -77,6 +80,8 @@
 				66E0E87E1F6904B70075122E /* AppDelegate.m */,
 				66E0E8801F6904B70075122E /* ViewController.h */,
 				66E0E8811F6904B70075122E /* ViewController.m */,
+				660F2A951FAFF96E00850E07 /* WebViewController.h */,
+				660F2A961FAFF96E00850E07 /* WebViewController.m */,
 				66E0E8831F6904B70075122E /* Main.storyboard */,
 				66E0E8861F6904B70075122E /* Assets.xcassets */,
 				66E0E8881F6904B70075122E /* LaunchScreen.storyboard */,
@@ -248,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66E0E8821F6904B70075122E /* ViewController.m in Sources */,
+				660F2A971FAFF96E00850E07 /* WebViewController.m in Sources */,
 				66E0E87F1F6904B70075122E /* AppDelegate.m in Sources */,
 				66E0E87C1F6904B70075122E /* main.m in Sources */,
 				66E0E8941F69060C0075122E /* CWWebViewController.m in Sources */,
